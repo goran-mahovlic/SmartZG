@@ -3,8 +3,8 @@
 ## LoRa
   ### LoRa is one of LPWAN Low Power Wide Area Network
   
-  LoRa is IP block that describes modulation LoRa PHY
-  ![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
+LoRa is IP block that describes modulation LoRa PHY
+![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
 	
 Lora is Proprietary modulation :(
 
@@ -42,28 +42,32 @@ Check gr-LoRa on git
 
 	[x] https://github.com/BastilleResearch/gr-lora
 
+
+
+
 ## LoRaWAN
 ### LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over the long range wireless connections.
 https://stackforce.github.io/LoRaMac-doc/group___l_o_r_a_m_a_c.html
 
-[x] Encrypted (AES-128)
-[x] Half-Duplex communication - transmission of data in just one direction at a time (walkie-talkie) 
+	[x] Encrypted (AES-128)
+	[x] Half-Duplex communication - transmission of data in just one direction at a time (walkie-talkie) 
 
 ISM bands 915 US 868 in EU
-[x] In EU you can send only 1% of the time on some frequencies 0.1%
-[x] One band 10% of the time
-[x] 1% of time is just 36 seconds in one hour
+
+	- In EU you can send only 1% of the time on some frequencies 0.1%
+	- One band 10% of the time
+	- 1% of time is just 36 seconds in one hour
 
 Time spendt on air depends of SF and message lenght
 Here goes great picture of AIR time
 
 Protocol is supporting 3 classes
-    	Class A
-        	Sends Opens RX1 Opens RX2 Got to sleep
-    	Class B 
-        	Sends and receives in adjusted time slots
-    	Class C 
-        	Sends Opens RX1 waits with opened RX2
+	- Class A
+        	-Sends Opens RX1 Opens RX2 Got to sleep
+    	- Class B 
+        	- Sends and receives in adjusted time slots
+    	- Class C 
+        	- Sends Opens RX1 waits with opened RX2
 
 Gateway has same airtime limits as the node - you can use 10% band for downlink
 
