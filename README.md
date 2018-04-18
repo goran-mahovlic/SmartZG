@@ -128,6 +128,7 @@ Radiona had two workshops for now
 	- All about nodes - mapping the city
 
 Coverage of our gateways
+![network](pics/map.png)
 
 	- TTN mapper (not opensource)
         - check lemilica.com for open source solution
