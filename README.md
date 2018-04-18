@@ -7,11 +7,10 @@
   ![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
 	
 	Lora is Proprietary modulation :(
-    	Chirp spread spectrum
-        	helps to get signal from noise better
-          ![SNR](http://4.bp.blogspot.com/-c4caXVo-zuI/WGTx7K0etbI/AAAAAAAAGXU/nyvUa81OLIoTGopjDO3gnrHyCgsIyVktgCLcB/s1600/SF_Comparasion_7_12.png)
-    	LoRa works great in a noisy environment
-      ![Noisy](https://artistpictures.files.wordpress.com/2012/03/immortal-22042011-22.jpg)
+    	Chirp spread spectrum (helps to get signal from noise better)
+          ![SNR](pics/chirp.png)
+      	LoRa works great in a noisy environment
+      ![Noisy](pics/noisy.jpg)
       Low transmit power (25mW)
       With realy low power (40mA TX, 10mA RX)
       In sleep, chip is using under 1uA
@@ -23,7 +22,7 @@
 		SX Chips from Semtech for different frequencies
     		EU uses 868MHz Band SX1276(433Mhz also an option with SX1278)
         		868MHz has Airtime limits
-              ![AirTime](https://i2.wp.com/www.disk91.com/wp-content/uploads/2017/01/Diapositive12.png?w=720&ssl=1)
+              ![AirTime](pics/AirTime.png)
 
         
     	Gateway SX1301/SX1308 for gateway 
@@ -34,9 +33,6 @@
     
     	868 is a license-free band :)
     	125kHz bandwidth
-        	https://www.disk91.com/2017/technology/internet-of-things-technology/all-what-you-need-to-know-about-regulation-on-rf-868mhz-for-lpwan/
-        	https://i2.wp.com/www.disk91.com/wp-content/uploads/2017/01/Diapositive12.png?w=720&ssl=1
-        	https://i2.wp.com/www.disk91.com/wp-content/uploads/2017/01/ResauxLowPower.png?w=720&ssl=1
 
     	Check gr-LoRa on git
         	https://github.com/BastilleResearch/gr-lora
