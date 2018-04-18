@@ -110,7 +110,6 @@ Network architecture
 Complete opensource solution on your servers
 
 	[x] Gateway bridge
-            - Packet FW <> GW bridge
         [x] Network server broker
         [x] Application server broker
 
@@ -121,10 +120,12 @@ Remember LoRa is all about compromise
 
 ![network](pics/pick-2-.jpg)
 
-TTNZagreb by radiona (SmartZG)
-Two workshops for now
-    Build your GW
-    All about nodes - mapping the city
+## TTNZagreb by radiona (SmartZG)
+
+Radiona had two workshops for now
+ 
+	- Build your GW
+	- All about nodes - mapping the city
 
 Coverage of our gateways
     TTN mapper
