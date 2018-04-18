@@ -109,6 +109,7 @@ Gateway is just Forwarder  just forwarding messages from NODE <> Network
 	- Packet forwarder - runs on gateway
 
 Network architecture
+
             ![network](pics/network.jpeg)
 
 Complete opensource solution on your servers
