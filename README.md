@@ -1,61 +1,60 @@
 # SmartZG powered by Radiona
 
 ## LoRa
-  LoRa is one of LPWAN Low Power Wide Area Network
+  ### LoRa is one of LPWAN Low Power Wide Area Network
   
   LoRa is IP block that describes modulation LoRa PHY
   ![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
 	
-	Lora is Proprietary modulation :(
-    	Chirp spread spectrum (helps to get signal from noise better)
-          ![SNR](pics/chirp.png)
-      	LoRa works great in a noisy environment
-      ![Noisy](pics/noisy.jpg)
-      Low transmit power (25mW)
-      With realy low power (40mA TX, 10mA RX)
-      In sleep, chip is using under 1uA
-      Low data rate
-      High range
-      Great battery life
+Lora is Proprietary modulation :(
 
-	Nodes (or single chanel gateway)
-		SX Chips from Semtech for different frequencies
-    		EU uses 868MHz Band SX1276(433Mhz also an option with SX1278)
-        		868MHz has Airtime limits
-              ![AirTime](pics/AirTime.png)
+Chirp spread spectrum (helps to get signal from noise better)
+![SNR](pics/chirp.png)
 
-        
-    	Gateway SX1301/SX1308 for gateway 
-        	Can receive 8 bands at the same time
-        	Has better sensitivity
-    
-    	Chips are SPI controlled
-    
-    	868 is a license-free band :)
-    	125kHz bandwidth
+LoRa works great in a noisy environment
+![Noisy](pics/noisy.jpg)
 
-    	Check gr-LoRa on git
-        	https://github.com/BastilleResearch/gr-lora
+   [x] Low transmit power (25mW)
+   [x] With realy low power (40mA TX, 10mA RX)
+   [x] In sleep, chip is using under 1uA
+   [x] Low data rate
+   [x] High range
+   [x] Great battery life
+
+Nodes (or single chanel gateway)
+    [x] SX Chips from Semtech for different frequencies
+    [x]  EU uses 868MHz Band SX1276(433Mhz also an option with SX1278)
+
+Gateway SX1301/SX1308 for gateway
+    [x] Can receive 8 bands at the same time
+    [x] Has better sensitivity
+
+868MHz has Airtime limits
+![AirTime](pics/AirTime.png)
+
+Chips are SPI controlled
+868 is a license-free band :)
+125kHz bandwidth
+
+Check gr-LoRa on git
+    [x] https://github.com/BastilleResearch/gr-lora
 
 ## LoRaWAN
-        LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to
-        communicate with Internet-connected applications over the long range wireless connections.
-            https://stackforce.github.io/LoRaMac-doc/group___l_o_r_a_m_a_c.html
+### LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over the long range wireless connections.
+https://stackforce.github.io/LoRaMac-doc/group___l_o_r_a_m_a_c.html
 
-        It is Encrypted (AES-128)
+[x] Encrypted (AES-128)
+[x] Half-Duplex communication - transmission of data in just one direction at a time (walkie-talkie) 
 
-	    Half-Duplex communication - transmission of data in just one direction at a time (walkie-talkie) 
+ISM bands 915 US 868 in EU
+[x] In EU you can send only 1% of the time on some frequencies 0.1%
+[x] One band 10% of the time
+[x] 1% of time is just 36 seconds in one hour
 
-    	ISM bands 915 US 868 in EU
-        	In EU you can send only 1% of the time on some frequencies 0.1%
-        	One band 10% of the time
-    	
-        1% of time is just 36 seconds in one hour
+Time spendt on air depends of SF and message lenght
+Here goes great picture of AIR time
 
-        Time spendt on air depends of SF and message lenght
-            Great picture of AIR time
-
-        Protocol is supporting 3 classes
+Protocol is supporting 3 classes
     	Class A
         	Sends Opens RX1 Opens RX2 Got to sleep
     	Class B 
@@ -63,12 +62,13 @@
     	Class C 
         	Sends Opens RX1 waits with opened RX2
 
-        Gateway has same airtime limits as the node - you can use 10% band for downlink
+Gateway has same airtime limits as the node - you can use 10% band for downlink
 
-        Sends back message on same frequency, message has arrived RX1, or on special frequency RX2
+Sends back message on same frequency, message has arrived RX1, or on special frequency RX2
     
-        Two way for node to attach to a network
-        Two keys, one for network server and one for data (application)
+Two way for node to attach to a network
+        
+Two keys, one for network server and one for data (application)
         OTAA
             Handshaking
             Device sends request
