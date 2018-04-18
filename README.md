@@ -62,6 +62,7 @@ Time spendt on air depends of SF and message lenght
 Here goes great picture of AIR time
 
 Protocol is supporting 3 classes
+
 	- Class A
         	-Sends Opens RX1 Opens RX2 Got to sleep
     	- Class B 
@@ -69,51 +70,56 @@ Protocol is supporting 3 classes
     	- Class C 
         	- Sends Opens RX1 waits with opened RX2
 
-Gateway has same airtime limits as the node - you can use 10% band for downlink
+Gateway has same airtime limits as the node - ( downlink depends on band )
 
 Sends back message on same frequency, message has arrived RX1, or on special frequency RX2
     
 Two way for node to attach to a network
         
 Two keys, one for network server and one for data (application)
-        OTAA
-            Handshaking
-            Device sends request
-            Gateway calculates the session key
-            Node calculates session keys
-                Note that no key is sent by node nor by gw
-            Gateway sends accept (settings) encrypted with new keys
-                https://image.slidesharecdn.com/apricot17-lpwagivingavoicetothings-rel4-61488325419-170306004415/95/lpwa-giving-a-voice-to-things-48-638.jpg?cb=1488761088
 
-        ABP Authorisation by personalisation
-            You just set the session key on both sides (keys never change so it is less secure)
+        - OTAA
+          - Handshaking
+           - Device sends request
+           - Gateway calculates the session key
+           - Node calculates session keys
+             - Note that no key is sent by node nor by gw
+           - Gateway sends accept (settings) encrypted with new keys
+	   
+![Join](pics/Join.jpg)  
+	 
+        - ABP Authorisation by personalisation
+          - You just set the session key on both sides (keys never change so it is less secure)
         
-        LoRa is not for a lot of data, and not for time-critical data
+LoRa is not for a lot of data, and not for time-critical data
 
-        Listen Before Talk (feature of some new gateways)
-            The Listen Before Talk (LBT) protocol makes it possible for multiple users to share the same channel. 
-            When LBT is enabled, the device continuously monitors channels so as to transmit only when a channel is not in use.
+Listen Before Talk (feature of some new gateways)
 
-        Newest MAC supports repeaters
+	- The Listen Before Talk (LBT) protocol makes it possible for multiple users to share the same channel. 
+        - When LBT is enabled, the device continuously monitors channels so as to transmit only when a channel is not in use.
 
-        Gateway is just Forwarder  just forwarding messages from NODE <> Network
-            Packet forwarder - runs on node
+Newest MAC supports repeaters
 
-        Network architecture
-            https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.slidesharecdn.com%2Florawansynchronizationsemtech-151117212231-lva1-app6891%2F95%2Florawan-iot-synchronization-7-638.jpg%3Fcb%3D1447795408&f=1
+Gateway is just Forwarder  just forwarding messages from NODE <> Network
 
-        Complete opensource solution
-            Gateway bridge
-                Packet FW <> GW bridge
-            Network server broker
-            Application server broker
+	- Packet forwarder - runs on gateway
 
-        or use TTN - https://www.thethingsnetwork.org/
-            v3 should be easier to deploy on your servers
+Network architecture
+            ![network](pics/network.jpeg)
 
-        Remember LoRa is all about compromise
-            https://ubidots.com/blog/wp-content/uploads/2017/07/pick-2-.jpg
+Complete opensource solution on your servers
 
+	- Gateway bridge
+          - Packet FW <> GW bridge
+        - Network server broker
+        - Application server broker
+
+or use TTN - https://www.thethingsnetwork.org/
+v3 should be easier to deploy on your servers
+
+Remember LoRa is all about compromise
+
+![network](pics/pick-2-.jpg)
 
 TTNZagreb by radiona (SmartZG)
 Two workshops for now
