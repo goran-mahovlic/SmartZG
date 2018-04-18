@@ -128,33 +128,34 @@ Radiona had two workshops for now
 	- All about nodes - mapping the city
 
 Coverage of our gateways
-    TTN mapper
-        Not opensource
-    check lemilica.com for open source solution
+
+	- TTN mapper (not opensource)
+        - check lemilica.com for open source solution
 
 Use case
-    IRNAS has few great ones
-        Count penguins
-            power on
-            take pic
-            OpenCV count penguins
-            lora send no of penguins
-            power off
-        Pit stop for turtles
-        Trap for poachers
-    Birdhouse
-        Bird in - temp
-    Intrudes alarm on some distant place - or boat...
-    Public scale
-        On exibition - visit us @
-    Pager
-    GPS for pets
-    Polution detector
-        If something bad detected send a warning
-    Agriculture
-    Distant plant soil moisture
+    
+    	- IRNAS has few great ones
+          - Count penguins
+            - power on
+            - take pic
+            - OpenCV count penguins
+            - lora send no of penguins
+            - power off
+        - Pit stop for turtles
+        - Trap for poachers
+    	- Birdhouse
+        	- Bird in - temp
+    	- Intrudes alarm on some distant place - or boat...
+    	- Public scale
+        	- On exibition - visit us @
+    	- Pager
+    	- GPS for pets
+    	- Polution detector
+        	- If something bad detected send a warning
+    	- Agriculture
+    	- Distant plant soil moisture
 
-    So many other
+So many other
 
 Warning:
     Do not put your GW near a working chimney
