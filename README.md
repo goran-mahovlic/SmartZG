@@ -14,12 +14,12 @@ Chirp spread spectrum (helps to get signal from noise better)
 LoRa works great in a noisy environment
 ![Noisy](pics/noisy.jpg)
 
-   [x] Low transmit power (25mW)
-   [x] With realy low power (40mA TX, 10mA RX)
-   [x] In sleep, chip is using under 1uA
-   [x] Low data rate
-   [x] High range
-   [x] Great battery life
+	   [x] Low transmit power (25mW)
+	   [x] With realy low power (40mA TX, 10mA RX)
+	   [x] In sleep, chip is using under 1uA
+	   [x] Low data rate
+	   [x] High range
+	   [x] Great battery life
 
 Nodes (or single chanel gateway)
     [x] SX Chips from Semtech for different frequencies
