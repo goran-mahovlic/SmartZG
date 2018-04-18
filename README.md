@@ -111,6 +111,7 @@ Complete opensource solution on your servers
 
 	- Gateway bridge
           - Packet FW <> GW bridge
+	  
         - Network server broker
         - Application server broker
 
