@@ -4,7 +4,8 @@
   ### LoRa is one of LPWAN Low Power Wide Area Network
   
 LoRa is IP block that describes modulation LoRa PHY
-![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)<-
+
+->![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)<-
 	
 Lora is Proprietary modulation :(
 
