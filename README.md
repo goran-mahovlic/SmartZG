@@ -109,11 +109,10 @@ Network architecture
 
 Complete opensource solution on your servers
 
-	- Gateway bridge
-          - Packet FW <> GW bridge
-	  
-        - Network server broker
-        - Application server broker
+	[x] Gateway bridge
+            - Packet FW <> GW bridge
+        [x] Network server broker
+        [x] Application server broker
 
 or use TTN - https://www.thethingsnetwork.org/
 v3 should be easier to deploy on your servers
