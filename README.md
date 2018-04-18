@@ -134,7 +134,7 @@ Coverage of our gateways
 
 Use case
     
-    	- IRNAS has few great ones
+	- IRNAS has few great ones
           - Count penguins
             - power on
             - take pic
