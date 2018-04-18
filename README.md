@@ -14,20 +14,22 @@ Chirp spread spectrum (helps to get signal from noise better)
 LoRa works great in a noisy environment
 ![Noisy](pics/noisy.jpg)
 
-	   [x] Low transmit power (25mW)
-	   [x] With realy low power (40mA TX, 10mA RX)
-	   [x] In sleep, chip is using under 1uA
-	   [x] Low data rate
-	   [x] High range
-	   [x] Great battery life
+	[x] Low transmit power (25mW)
+	[x] With realy low power (40mA TX, 10mA RX)
+	[x] In sleep, chip is using under 1uA
+	[x] Low data rate
+	[x] High range
+	[x] Great battery life
 
 Nodes (or single chanel gateway)
-    [x] SX Chips from Semtech for different frequencies
-    [x]  EU uses 868MHz Band SX1276(433Mhz also an option with SX1278)
+
+	[x] SX Chips from Semtech for different frequencies
+	[x]  EU uses 868MHz Band SX1276(433Mhz also an option with SX1278)
 
 Gateway SX1301/SX1308 for gateway
-    [x] Can receive 8 bands at the same time
-    [x] Has better sensitivity
+
+	[x] Can receive 8 bands at the same time
+	[x] Has better sensitivity
 
 868MHz has Airtime limits
 ![AirTime](pics/AirTime.png)
@@ -37,7 +39,8 @@ Chips are SPI controlled
 125kHz bandwidth
 
 Check gr-LoRa on git
-    [x] https://github.com/BastilleResearch/gr-lora
+
+	[x] https://github.com/BastilleResearch/gr-lora
 
 ## LoRaWAN
 ### LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over the long range wireless connections.
