@@ -4,14 +4,17 @@
   ### LoRa is one of LPWAN Low Power Wide Area Network
   
 LoRa is IP block that describes modulation LoRa PHY
+
 ![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
 	
 Lora is Proprietary modulation :(
 
 Chirp spread spectrum (helps to get signal from noise better)
+
 ![SNR](pics/chirp.png)
 
 LoRa works great in a noisy environment
+
 ![Noisy](pics/noisy.jpg)
 
 	[x] Low transmit power (25mW)
@@ -32,6 +35,7 @@ Gateway SX1301/SX1308 for gateway
 	[x] Has better sensitivity
 
 868MHz has Airtime limits
+
 ![AirTime](pics/AirTime.png)
 
 Chips are SPI controlled
@@ -105,6 +109,7 @@ Gateway is just Forwarder  just forwarding messages from NODE <> Network
 	- Packet forwarder - runs on gateway
 
 Network architecture
+
             ![network](pics/network.jpeg)
 
 Complete opensource solution on your servers
@@ -128,6 +133,8 @@ Radiona had two workshops for now
 	- All about nodes - mapping the city
 
 Coverage of our gateways
+
+![network](pics/map.png)
 
 	- TTN mapper (not opensource)
         - check lemilica.com for open source solution
