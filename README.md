@@ -1,4 +1,4 @@
-#                                        SmartZG powered by Radiona
+# SmartZG powered by Radiona
  
 ![SmartZg](pics/SmartZG_01.png)
 
@@ -7,7 +7,7 @@
   
 LoRa is IP block that describes modulation LoRa PHY
 
-![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
+![IP block](pics/lora1.png)
 	
 Lora is Proprietary modulation :(
 
@@ -125,7 +125,7 @@ v3 should be easier to deploy on your servers
 
 Remember LoRa is all about compromise
 
-![network](pics/pick-2-.jpg)
+![network](pics/lora2.png)
 
 ## TTNZagreb by radiona (SmartZG)
 
