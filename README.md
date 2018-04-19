@@ -43,7 +43,9 @@ Gateway SX1301/SX1308 for gateway
 ![AirTime](pics/AirTime.png)
 
 Chips are SPI controlled
+
 868 is a license-free band :)
+
 125kHz bandwidth
 
 Check gr-LoRa on git
@@ -54,7 +56,9 @@ Check gr-LoRa on git
 
 
 ## LoRaWAN
+
 ### LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over the long range wireless connections.
+
 https://stackforce.github.io/LoRaMac-doc/group___l_o_r_a_m_a_c.html
 
 	[x] Encrypted (AES-128)
@@ -67,7 +71,8 @@ ISM bands 915 US 868 in EU
 	- 1% of time is just 36 seconds in one hour
 
 Time spendt on air depends of SF and message lenght
-Here goes great picture of AIR time
+
+![network](pics/lora_sf_bitrate_airtime.png)
 
 Protocol is supporting 3 classes
 
