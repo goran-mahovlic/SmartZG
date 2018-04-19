@@ -2,6 +2,22 @@
  
 ![SmartZg](pics/SmartZG_01.png)
 
+I am Goran, and I am playing with LoRa for some time...
+
+I decided to buy and build one lora gateway so people around my house can use it (that includes me)
+
+I have done this succesfully and spread the word about magic LoRa in my makerspace Radiona.
+
+Other members asked is it posible to test LoRa without spending days in car in front of my house.
+
+### Members asked!
+
+### Radiona delivers!!!
+
+But first things first...
+
+What is LoRa.
+
 ## LoRa
   ### LoRa is technology used for LPWAN Low Power Wide Area Network
 
