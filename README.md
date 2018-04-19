@@ -3,8 +3,8 @@
 ![SmartZg](pics/SmartZG_01.png)
 
 ## LoRa
-  ### LoRa is one of LPWAN Low Power Wide Area Network
-  
+  ### LoRa is technology used for LPWAN Low Power Wide Area Network
+
 LoRa is IP block that describes modulation LoRa PHY
 
 ![IP block](pics/lora1.png)
