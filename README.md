@@ -1,4 +1,6 @@
--> # SmartZG powered by Radiona <-
+<p align="center"> # SmartZG powered by Radiona  
+	<br><br>
+</p>
  
 ![SmartZg](pics/SmartZG_01.png)
 
