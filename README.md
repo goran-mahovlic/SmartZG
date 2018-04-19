@@ -2,6 +2,8 @@
  
 ![SmartZg](pics/SmartZG_01.png)
 
+### Intro:
+
 I am Goran, and I am playing with LoRa for some time...
 
 I decided to buy and build one lora gateway so people around my house can use it (that includes me)
