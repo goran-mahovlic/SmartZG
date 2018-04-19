@@ -11,9 +11,11 @@ LoRa is IP block that describes modulation LoRa PHY
 	
 Lora is Proprietary modulation :(
 
-Chirp spread spectrum (helps to get signal from noise better)
+LoRa is using chirp spread spectrum (helps to get signal from noise better).
 
-![SNR](pics/chirp.png)
+A chirp is a signal in which the frequency increases (up-chirp) or decreases (down-chirp) with time.
+
+![SDR](pics/chirp.png)
 
 LoRa works great in a noisy environment
 
@@ -23,7 +25,7 @@ LoRa works great in a noisy environment
 	[x] With realy low power (40mA TX, 10mA RX)
 	[x] In sleep, chip is using under 1uA
 	[x] Low data rate
-	[x] High range
+	[x] Long range
 	[x] Great battery life
 
 Nodes (or single chanel gateway)
