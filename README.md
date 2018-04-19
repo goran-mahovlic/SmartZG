@@ -1,4 +1,4 @@
-<p align="center"> # SmartZG powered by Radiona  
+<p align="center" text font-size="20" > SmartZG powered by Radiona  
 	<br><br>
 </p>
  
