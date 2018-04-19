@@ -1,6 +1,4 @@
-<p align="center" text font-size="20" > SmartZG powered by Radiona  
-	<br><br>
-</p>
+#                                        SmartZG powered by Radiona
  
 ![SmartZg](pics/SmartZG_01.png)
 
