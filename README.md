@@ -77,11 +77,11 @@ Time spendt on air depends of SF and message lenght
 Protocol is supporting 3 classes
 
 	- Class A
-        	-Sends Opens RX1 Opens RX2 Got to sleep
+        	-Sends msg - opens RX1 - waits for msg - opens RX2 - waits for msg - go to sleep
     	- Class B 
         	- Sends and receives in adjusted time slots
     	- Class C 
-        	- Sends Opens RX1 waits with opened RX2
+        	-Sends msg - opens RX1 - waits for msg - opens RX2 - waits for msg
 
 Gateway has same airtime limits as the node - ( downlink depends on band )
 
