@@ -1,19 +1,39 @@
-#                                        SmartZG powered by Radiona
+# SmartZG powered by Radiona
  
 ![SmartZg](pics/SmartZG_01.png)
 
+### Intro:
+
+I am Goran, and I am playing with LoRa for some time...
+
+I decided to buy and build one lora gateway so people around my house can use it (that includes me)
+
+I have done this succesfully and spread the word about magic LoRa in my makerspace Radiona.
+
+Other members asked is it posible to test LoRa without spending days in car in front of my house.
+
+### Members asked!
+
+### Radiona delivers!!!
+
+But first things first...
+
+What is LoRa.
+
 ## LoRa
-  ### LoRa is one of LPWAN Low Power Wide Area Network
-  
+  ### LoRa is technology used for LPWAN Low Power Wide Area Network
+
 LoRa is IP block that describes modulation LoRa PHY
 
-![IP block](http://www.bitreactive.com/wp-content/uploads/2015/09/Lora-Block.png)
+![IP block](pics/lora1.png)
 	
 Lora is Proprietary modulation :(
 
-Chirp spread spectrum (helps to get signal from noise better)
+LoRa is using chirp spread spectrum (helps to get signal from noise better).
 
-![SNR](pics/chirp.png)
+A chirp is a signal in which the frequency increases (up-chirp) or decreases (down-chirp) with time.
+
+![SDR](pics/chirp.png)
 
 LoRa works great in a noisy environment
 
@@ -23,7 +43,7 @@ LoRa works great in a noisy environment
 	[x] With realy low power (40mA TX, 10mA RX)
 	[x] In sleep, chip is using under 1uA
 	[x] Low data rate
-	[x] High range
+	[x] Long range
 	[x] Great battery life
 
 Nodes (or single chanel gateway)
@@ -41,7 +61,9 @@ Gateway SX1301/SX1308 for gateway
 ![AirTime](pics/AirTime.png)
 
 Chips are SPI controlled
+
 868 is a license-free band :)
+
 125kHz bandwidth
 
 Check gr-LoRa on git
@@ -52,7 +74,9 @@ Check gr-LoRa on git
 
 
 ## LoRaWAN
+
 ### LoRaWAN is a media access control (MAC) protocol for wide area networks. It is designed to allow low-powered devices to communicate with Internet-connected applications over the long range wireless connections.
+
 https://stackforce.github.io/LoRaMac-doc/group___l_o_r_a_m_a_c.html
 
 	[x] Encrypted (AES-128)
@@ -65,16 +89,17 @@ ISM bands 915 US 868 in EU
 	- 1% of time is just 36 seconds in one hour
 
 Time spendt on air depends of SF and message lenght
-Here goes great picture of AIR time
+
+![network](pics/lora_sf_bitrate_airtime.png)
 
 Protocol is supporting 3 classes
 
 	- Class A
-        	-Sends Opens RX1 Opens RX2 Got to sleep
+        	-Sends msg - opens RX1 - waits for msg - opens RX2 - waits for msg - go to sleep
     	- Class B 
         	- Sends and receives in adjusted time slots
     	- Class C 
-        	- Sends Opens RX1 waits with opened RX2
+        	-Sends msg - opens RX1 - waits for msg - opens RX2 - waits for msg
 
 Gateway has same airtime limits as the node - ( downlink depends on band )
 
@@ -125,7 +150,7 @@ v3 should be easier to deploy on your servers
 
 Remember LoRa is all about compromise
 
-![network](pics/pick-2-.jpg)
+![network](pics/lora2.png)
 
 ## TTNZagreb by radiona (SmartZG)
 
